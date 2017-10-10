@@ -1,0 +1,125 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.site-tag {
+  font-weight: bold;
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.active {
+  background-color: #6fbec6;
+}
+
+.purp-nav {
+  background-color: rgba(121, 106, 128, 0.9) !important;
+}
+
+.sticky {
+  position: sticky;
+  top:0;
+  z-index: 9999;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-item a:hover {
+  background-color: #6fbec6;
+}
+
+.btn-changes {
+  color: rgb(121, 106, 128) !important;
+  border-color: rgb(121, 106, 128) !important;
+  width: 25% !important;
+}
+
+.btn-changes:hover {
+  color: white !important;
+  background-color: rgb(121, 106, 128) !important
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.map-container iframe {
+  pointer-events: none;
+}
+
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
+
+.footer-text {
+  color:white;
+  font-size:24px;
+}
+
+.mini-nav {
+  font-size: 30px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-30 { font-size: 30px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.purp { color: rgb(121, 106, 128); }
+
+@media (max-width: 766px) {
+  .btn-changes {
+    width: 100% !important;
+  }
+}
